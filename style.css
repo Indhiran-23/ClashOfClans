@@ -1,0 +1,241 @@
+
+.navbutton button{
+        display: none;
+}
+@media only screen and (max-width: 750px) {
+        .navbutton button{
+                display: flex;
+        }
+        
+}
+ul{
+        list-style-type: none;
+        padding-left: 0;
+}
+li{
+        padding: 15px;
+}
+nav{
+        height: 70px;
+        overflow: hidden;
+}
+
+.bgimage img{
+        object-fit: cover;
+        width: 100%;
+        height: auto;
+        min-height: 450px;
+}
+.mainlogo img{
+        position: absolute;
+        top: 20%;
+        left: 40%;
+
+        width: 20%;
+        min-width: 300px;
+        min-height: 110px;
+  
+}
+
+.clan{
+        display: flex; 
+        width: 100%;
+        justify-content: center; 
+        align-items: center;
+        padding-top: 70px;
+        padding-bottom: 54px;
+        flex-wrap: wrap;
+}
+
+.clan .gaming img{
+        position: relative;
+        width: 922px; 
+        margin-left: -345px;
+        min-width: 150px;
+}
+@media only screen and (max-width: 750px) {
+        .clan{
+                display: block;  
+
+        }
+        .clan .gaming img{
+                margin: 0;
+                width: 450px;
+        }
+}
+
+.clanvictory {
+        
+        margin-top: 70px;
+        margin-left: 25px;
+        text-align: left;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-right: 40px;
+        
+}
+ h1{
+        font-size: 30px;
+        text-transform: uppercase;
+        font-weight: 400;
+        font-weight: bold;
+}
+ p{
+        padding-top: 20px;
+        font-size: 18px;
+        line-height: 1.56;
+}
+.appstore a img{
+        padding-top: 20px;
+        padding: 5px;
+        width: 160px;
+}
+
+.clms{
+        width: 210px;
+        height: 55px;
+        border-left: 2px solid rgba(128, 128, 128, 0.521);
+        padding-left: 10px;
+        font-weight: 600;
+        font-size: small;
+}
+.hr{
+        height: 10px;
+        border-left:2px solid rgba(180, 180, 180, 0.541) ;
+        padding-right: 10px;
+}
+
+.bgtimeline {
+        position: relative;
+}
+.bgtimeline #pig{
+        height: 450px;
+        position: absolute;
+        right: -100px;
+        bottom: -90px;
+        -o-object-fit: contain;
+        object-fit: contain;
+}
+
+.evol{
+        padding-top: 90px;
+}
+.flag{
+        padding-left: 15px;
+        padding-bottom: 10px;
+}
+.footicon{
+        padding-top: 5px;
+}
+.footicon a{
+        padding: 5px;
+}
+.footicon img{
+        width: 30px;
+}
+
+.footplay img{
+        width: 190px;
+        padding: 5px;
+}
+
+.playvideo{
+        position: relative;
+}
+.play{
+        position: absolute;
+        top: 43%;
+        left: 43%;
+        width: 15%;
+}
+.swiper {
+        width: 100%;
+        height: 100%;
+}
+  
+.swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.playvideo h6:hover{
+        color: blue;
+}
+@media only screen and (max-width: 750px) {
+        
+        .lastrew{
+                display: block;
+        }
+}
+
+
+@media only screen and (max-width: 750px) {
+	div.scrollmenu {
+		overflow: auto;
+		overflow-y:hidden;
+		white-space: nowrap;
+		height:fixed;
+		
+		
+	}
+	.bgtimeline #pig{
+			width:200px;
+			right: -150px;
+			bottom: -200px;
+		}
+	
+	.clms{
+        width: 210px;
+        height: 55px;
+        border-left: 2px solid rgba(128, 128, 128, 0.521);
+        padding-left: 10px;
+		padding-right:30px;
+        font-weight: 400;
+        font-size: 8px;
+	}
+	.hr{
+			height: 7px;
+			border-left:2px solid rgba(180, 180, 180, 0.541) ;
+			padding-right: 7px;
+	}
+}
+
+/*
+width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+.login{
+    min-height: 350px;
+    width: 25%;
+    background-color:rgba(141, 75, 216, 0.767);
+    border: 7px solid rgba(65, 61, 70, 0.192);
+    border-radius: 7px;
+    padding: 15px;
+    margin-left: 35%;
+    margin-right: 35%;
+    align-content: center;
+    text-align: center;
+
+    align-items: center;
+    justify-content: center;
+}
+.regi{
+
+    background-color:rgba(54, 129, 179, 0.534);
+    border: rgb(54, 129, 179);
+    border-radius: 7px;
+    padding: 20px;
+    width:400px;
+    font-size: x-large;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.regi input{
+    width:350;
+}
+*/
